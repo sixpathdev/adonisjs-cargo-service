@@ -1,0 +1,118 @@
+.carousel-image-height {
+  height: 100vh !important;
+}
+.inner-carousel-image {
+  background: url("https://transcargoservice.com/img/slider/slider-line.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 370px;
+  margin-top: 370px;
+  height: 240px;
+  width: 50vw;
+}
+.inner-carousel-image-one {
+  background: url("https://transcargoservice.com/img/slider/slider-line.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -40px;
+  margin-bottom: -200px;
+  height: 450px;
+  width: 80vw;
+}
+.bg-white {
+  background: white !important;
+  padding: 20px 30px;
+  border-bottom: 1.4px outset rgb(250, 250, 250);
+  box-shadow: 0 0.2px;
+}
+.caption-text {
+  position: relative;
+  bottom: 50px;
+  left: -330px;
+}
+
+.caption-text2 {
+  position: relative;
+  bottom: 150px;
+}
+.caption-center {
+  position: relative;
+  bottom: 35vh;
+  font-size: 75px;
+}
+.border-top-yellow {
+  display: block;
+  border-top: 4px solid orange;
+  width: 3em;
+}
+a.hover-blue:hover {
+  color: rgb(66, 162, 223);
+}
+a.hover-blue {
+  color: gray;
+  font-size: 14px;
+}
+.text-gray {
+  color: gray;
+}
+.parallax02 {
+  background-image: url("/images/parallax/parallax02.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax01 {
+  background-image: url("/images/parallax/parallax01.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partners {
+  background: url("/images/partners/partners.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25em;
+  max-height: 27em;
+  width: 40em;
+  max-width: 42em;
+}
+.place-near-middle {
+  position: relative;
+  top: 3.4em;
+}
+.place-near-bottom {
+  position: relative;
+  top: 7em;
+}
+.footer {
+  background-color: #25272e;
+  opacity: 0.6;
+}
+footer .middle-border {
+  position: relative;
+  top: 4.1em;
+}
+footer .border-bottom {
+  border-color: #384653 !important;
+}
+footer div .footer-text {
+  position: relative;
+  top: 6.6em;
+  left: 4.5em;
+}
+.scroll-top {
+  position: fixed;
+  background: url("/images/to-top@2x.png");
+  background-color: #252525;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: -9999px;
+  height: 50px;
+  width: 50px;
+  bottom: 1em;
+  left: 90%;
+}
