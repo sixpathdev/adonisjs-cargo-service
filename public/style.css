@@ -30,13 +30,13 @@
 }
 .caption-text {
   position: relative;
-  bottom: 50px;
-  left: -330px;
+  bottom: 10px;
+  left: -130px;
 }
 
 .caption-text2 {
   position: relative;
-  bottom: 150px;
+  bottom: 20px;
 }
 .caption-center {
   position: relative;
@@ -119,7 +119,68 @@ footer .footer-text {
   left: 90%;
 }
 
+/* About Route */
+
+.page-title01 {
+  background: url('/images/page-title01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 7%;
+  height: 45vh;
+  max-height: 50vh;
+  width: 100vw;
+}
+.bg-lavender {
+  background-color: lavender;
+  padding-top: 5em;
+  padding-left: 11em;
+  padding-right: 5em;
+}
+.no-bg-lavender {
+  padding-top: 5em;
+  padding-left: 3em;
+  padding-right: 14em;
+}
+.remove-bg li {
+  background-color: lavender;
+  padding: 1px;
+  font-size: 12px;
+}
+.truck {
+  background: url('/images/truck.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.truck2 {
+  background: url('/images/truck2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.engr {
+  background: url('/images/engr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+/* End About Route */
+
 @media screen and (max-width: 640px) {
+
+  /* About View */
+
+.bg-lavender {
+  padding: 3em 2em 1em 3em;
+}
+
+
+  /* End About View */
+
   .carousel-image-height {
     height: 75vh !important;
   }
