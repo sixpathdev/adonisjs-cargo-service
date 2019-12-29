@@ -1,6 +1,4 @@
-* {
-  overflow-x: hidden !important;
-}
+
 .carousel-image-height {
   height: 100vh !important;
 }
@@ -103,8 +101,11 @@ footer .border-bottom {
   border-color: #384653 !important;
 }
 footer .footer-text {
-  margin-top: 5.5em;
-  margin-left: 5em;
+  position: relative;
+  top: 5.5em;
+  left: 4em;
+  /* margin-top: 5.5em;
+  margin-left: 5em; */
 }
 .scroll-top {
   position: fixed;
@@ -240,7 +241,6 @@ footer .footer-text {
 .place-near-bottom {
   top: 1.2em;
 }
-
 footer .middle-border {
   top: 3em;
 }
