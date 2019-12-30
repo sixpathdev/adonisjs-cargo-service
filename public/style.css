@@ -102,7 +102,7 @@ footer .border-bottom {
 }
 footer .footer-text {
   position: relative;
-  top: 5.5em;
+  /* top: 5.5em; */
   left: 4em;
   /* margin-top: 5.5em;
   margin-left: 5em; */
@@ -117,7 +117,7 @@ footer .footer-text {
   height: 50px;
   width: 50px;
   bottom: 1em;
-  left: 90%;
+  left: 93%;
 }
 
 /* About Route */
@@ -140,8 +140,6 @@ footer .footer-text {
 }
 .no-bg-lavender {
   padding-top: 5em;
-  padding-left: 3em;
-  padding-right: 14em;
 }
 .remove-bg li {
   background-color: lavender;
@@ -172,11 +170,16 @@ footer .footer-text {
 /* End About Route */
 
 @media screen and (max-width: 640px) {
-
+  .scroll-top {
+    height: 40px;
+    width: 40px;
+    bottom: 1em;
+    left: 70%;
+  }
   /* About View */
 
 .bg-lavender {
-  padding: 3em 2em 1em 3em;
+  padding: 3em 1.5em 1em 3em;
 }
 
 
@@ -249,12 +252,6 @@ footer .footer-text {
   margin-top: 4em;
   margin-left: 1em;
 }
-  .scroll-top {
-    height: 40px;
-    width: 40px;
-    bottom: 1em;
-    left: 82%;
-  }
 }
 
 

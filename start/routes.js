@@ -18,3 +18,5 @@ const Route = use('Route')
 
 Route.on('/').render('home')
 Route.on('/about').render('about')
+Route.on("/testimonials").render("testimonials");
+Route.on("/tracking").render("tracking");
