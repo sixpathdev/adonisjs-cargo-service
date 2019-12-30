@@ -2,13 +2,38 @@
 
 @section('content')
 @include('inc.top-image')
-<section class="col-12 mt-5">
-    <div class="mb-4">
-        <p class="h2 text-center font-weight-bold">TESTIMONIALS</p>
-        <span class="border-top-yellow offset-6"></span>
+<div class="container">
+    <div class="row">
+        <section class="col-12 mt-5 mb-0 mb-md-3">
+            <div class="mb-4">
+                <p class="h2 font-weight-bold">Tracker</p>
+                <span class="border-top-yellow"></span>
+                <p class="h4 mt-3 font-weight-bold">Know exactly where your cargo/freight is at all times</p>
+                <p class="mt-2">
+                    <small class="text-gray">Trans Cargo Service: Tracking</small>
+                </p>
+            </div>
+            <div class="col-12 mt-5">
+                <form>
+                    <div class="form-group">
+                        <p class="h5 font-weight-bold text-center mb-4 mb-md-4">Enter your tracking code below and click
+                            the "Track" button to
+                            find out exactly <br>
+                            where your cargo is right now and when it will arrive at its final destination.
+                        </p>
+                        <div class="col-12 col-md-12 mx-auto">
+                            <input type="text" class="form-control form-control-lg"
+                                placeholder="Enter your tracking code here..." />
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary rounded-pill offset-3 offset-md-8 offset-lg-10 mt-3 px-4 py-2 px-md-5 py-md-3">TRACK</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
     </div>
-    
-</section>
+</div>
 @include('inc.partners')
 @include('inc.footer')
 @endsection
